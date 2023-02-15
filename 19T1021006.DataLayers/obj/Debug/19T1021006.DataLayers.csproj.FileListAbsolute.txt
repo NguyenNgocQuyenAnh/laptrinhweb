@@ -1,0 +1,9 @@
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\bin\Debug\19T1021006.DataLayers.dll
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\bin\Debug\19T1021006.DataLayers.pdb
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\obj\Debug\19T1021006.DataLayers.csproj.AssemblyReference.cache
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\obj\Debug\19T1021006.DataLayers.csproj.CoreCompileInputs.cache
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\obj\Debug\19T1021006.DataLayers.dll
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\obj\Debug\19T1021006.DataLayers.pdb
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\bin\Debug\19T1021006.DomainModels.dll
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\bin\Debug\19T1021006.DomainModels.pdb
+E:\LapTrinhWEB\19T1021006\19T1021006.DataLayers\obj\Debug\19T1021006.DataLayers.csproj.CopyComplete
