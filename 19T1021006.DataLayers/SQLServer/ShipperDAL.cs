@@ -161,8 +161,8 @@ namespace _19T1021006.DataLayers.SQLServer
                 cmd.CommandText = @"SELECT *
                                     FROM 
                                     (
-	                                    SELECT	*, ROW_NUMBER() OVER (ORDER BY CategoryName) AS RowNumber
-	                                    FROM	Categories 
+	                                    SELECT	*, ROW_NUMBER() OVER (ORDER BY ShipperName) AS RowNumber
+	                                    FROM	Shippers 
 	                                    WHERE	(@SearchValue = N'')
 	                                        OR	(ShipperName LIKE @SearchValue OR Phone LIKE @SearchValue)
                                     ) AS t

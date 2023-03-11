@@ -5,41 +5,52 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _19T1021006.DomainModels
-{   /// <summary>
-/// nhà cung cấp
-/// </summary>
-    public class Supplier
-    {/// <summary>
-    /// id
+{
+    /// <summary>
+    /// Nhà cung cấp
     /// </summary>
-        public int SupplierID { get; set; }
+    public class Supplier
+    {
         /// <summary>
-        /// teen ncc
+        /// Mã nhà cung cấp
+        /// </summary>
+        public int SupplierID { get; set; }
+
+        /// <summary>
+        /// Tên nhà cung cấp
         /// </summary>
         public string SupplierName { get; set; }
-         /// <summary>
-         ///  tên liên hệ
-         /// </summary>
-        public string ContactName { get; set; }
+
         /// <summary>
-        /// đia chỉ
+        /// 
+        /// </summary>
+        public string ContactName { get; set; }
+
+        /// <summary>
+        /// Địa chỉ nhà cung cấp
         /// </summary>
         public string Address { get; set; }
+
         /// <summary>
-        /// thành phố
+        /// Thành phố
         /// </summary>
         public string City { get; set; }
+
         /// <summary>
-        /// mã bưu điện
+        /// 
         /// </summary>
-        public string PostalCode{get;set;}
+        public string PostalCode { get; set; }
+
         /// <summary>
-        /// quốc gia
+        /// Quốc gia
         /// </summary>
         public string Country { get; set; }
+
         /// <summary>
-        /// điện thoại
+        /// Số điện thoại
         /// </summary>
         public string Phone { get; set; }
     }
+
+
 }

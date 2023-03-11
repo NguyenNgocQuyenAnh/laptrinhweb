@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 using _19T1021006.DomainModels;
+using System.Data.SqlClient;
+
 namespace _19T1021006.DataLayers.SQLServer
-{/// <summary>
- /// 
- /// </summary>
+{
+    /// <summary>
+    /// 
+    /// </summary>
     public class SupplierDAL : _BaseDAL, ICommonDAL<Supplier>
     {
         /// <summary>
@@ -251,6 +253,6 @@ namespace _19T1021006.DataLayers.SQLServer
             }
             return result;
         }
-    }
 
+    }
 }

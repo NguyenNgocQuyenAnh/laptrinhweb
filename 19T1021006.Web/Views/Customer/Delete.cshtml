@@ -1,65 +1,58 @@
-﻿
+﻿@model _19T1021006.DomainModels.Customer
 @{
     ViewBag.Title = "xóa khách hàng";
 }
 
 <div class="box box-primary">
     <div class="box-body">
-        <form class="form-horizontal" action="">
+        <form class="form-horizontal" action="~/Customer/Delete/@Model.CustomerID" method="post">
             <div class="form-group">
                 <label class="control-label col-sm-2">Họ tên:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">Quyền Anh</p>
+                    <p class="form-control-static">@Model.CustomerName</p>
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="control-label col-sm-2">Tên riêng:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">Rôn</p>
-                
+                    <p class="form-control-static">@Model.ContactName</p>
+
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="control-label col-sm-2">Địa chỉ:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">77 Nguyễn Huệ</p>
+                    <p class="form-control-static">@Model.Address</p>
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="control-label col-sm-2">Email:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">nnquyenanh@gmai.com</p>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label class="control-label col-sm-2">Mật khẩu:</label>
-                <div class="col-sm-10">
-                    <p class="form-control-static">0123</p>
+                    <p class="form-control-static">@Model.Email</p>
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="control-label col-sm-2">Thành phố:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">Huế</p>
+                    <p class="form-control-static">@Model.City</p>
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="control-label col-sm-2">Quốc gia:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">Việt Nam</p>
+                    <p class="form-control-static">@Model.Country</p>
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="control-label col-sm-2">Mã bưu chính:</label>
                 <div class="col-sm-10">
-                    <p class="form-control-static">0234</p>
+                    <p class="form-control-static">@Model.PostalCode</p>
                 </div>
             </div>
 
